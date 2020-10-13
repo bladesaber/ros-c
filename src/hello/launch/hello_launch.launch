@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="msg_pub" pkg="hello" type="msg_pub" output="screen" />
+  <node name="server_sub" pkg="hello" type="serve_sub" output="screen" />
+  <node name="demo_action_client" pkg="hello" type="action_pub" output="screen" args="30 40">
+    <param name="waste" type="int" value="30"/>
+    <param name="wait" type="int" value="40"/>
+  </node>
+
+</launch>

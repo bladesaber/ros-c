@@ -1,0 +1,21 @@
+(cl:defpackage hello-msg
+  (:use )
+  (:export
+   "<DEMOACTION>"
+   "DEMOACTION"
+   "<DEMOACTIONFEEDBACK>"
+   "DEMOACTIONFEEDBACK"
+   "<DEMOACTIONGOAL>"
+   "DEMOACTIONGOAL"
+   "<DEMOACTIONRESULT>"
+   "DEMOACTIONRESULT"
+   "<DEMOFEEDBACK>"
+   "DEMOFEEDBACK"
+   "<DEMOGOAL>"
+   "DEMOGOAL"
+   "<DEMORESULT>"
+   "DEMORESULT"
+   "<PERSON>"
+   "PERSON"
+  ))
+

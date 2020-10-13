@@ -1,0 +1,9 @@
+digraph G {
+"base_link" -> "laser_link"[label="Broadcaster: /tf_sub\nAverage rate: 0.750 Hz\nMost recent transform: 1602502231.256 ( 0.730 sec old)\nBuffer length: 4.000 sec\n"];
+"laser_link" -> "person_link"[label="Broadcaster: /tf_sub\nAverage rate: 1.000 Hz\nMost recent transform: 1602502230.256 ( 1.730 sec old)\nBuffer length: 2.000 sec\n"];
+"laser_link" -> "person2_link"[label="Broadcaster: /tf_sub\nAverage rate: 1.000 Hz\nMost recent transform: 1602502230.256 ( 1.730 sec old)\nBuffer length: 2.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1602502231.986"[ shape=plaintext ] ;
+ }->"base_link";
+}

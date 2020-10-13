@@ -1,0 +1,8 @@
+prefix=/home/bladesaber/Desktop/ros-c/devel
+
+Name: hello
+Description: Description of hello
+Version: 0.0.0
+Cflags: -I/home/bladesaber/Desktop/ros-c/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
