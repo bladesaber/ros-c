@@ -439,6 +439,12 @@ sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 
 //Value Computed by CMake
+task_BINARY_DIR:STATIC=/home/bladesaber/Desktop/ros-c/build/task
+
+//Value Computed by CMake
+task_SOURCE_DIR:STATIC=/home/bladesaber/Desktop/ros-c/src/task
+
+//Value Computed by CMake
 test_BINARY_DIR:STATIC=/home/bladesaber/Desktop/ros-c/build/test
 
 //Value Computed by CMake

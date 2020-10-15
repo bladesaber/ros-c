@@ -1,2 +1,2 @@
-hello:test
+hello:task
 -DCATKIN_DEVEL_PREFIX=/home/bladesaber/Desktop/ros-c/devel -DCMAKE_INSTALL_PREFIX=/home/bladesaber/Desktop/ros-c/install -G Unix Makefiles

@@ -1,0 +1,18 @@
+<launch>
+
+  <node name="img_pub_1" pkg="task" type="image_publisher.py" output="screen">
+      <param name="image_path" value="/home/bladesaber/Desktop/1.jpg"/>
+      <param name="publish_topic" value="camera/image/1"/>
+  </node>
+
+  <node name="img_pub_2" pkg="task" type="image_publisher.py" output="screen">
+      <param name="image_path" value="/home/bladesaber/Desktop/2.jpg"/>
+      <param name="publish_topic" value="camera/image/2"/>
+  </node>
+
+  <node name="image_subscriber_syc" pkg="task" type="image_subscriber_syc.py" output="screen">
+      <param name="camera_topic_1" value="camera/image/1"/>
+      <param name="camera_topic_2" value="camera/image/2"/>
+      <param name="control_topic" value="control_topic"/>
+  </node>
+</launch>
