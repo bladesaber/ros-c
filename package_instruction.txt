@@ -1,0 +1,4 @@
+install moveit
+1. sudo apt-get install ros-melodic-moveit
+2. source /opt/ros/melodic/setup.bash
+3. sudo apt-get install ros-melodic-moveit-resources
